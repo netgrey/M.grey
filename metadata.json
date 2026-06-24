@@ -1,0 +1,6 @@
+{
+  "name": "O Mentor Evolutivo (M. Grey)",
+  "description": "Plataforma de mentoria comportamental baseada no Método M. Grey. Autonomia, alta performance e renovação de mindset com Márcio Grey.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

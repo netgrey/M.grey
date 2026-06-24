@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --font-display: "Playfair Display", Georgia, serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --color-gold-50: #fbf8f3;
+  --color-gold-100: #f5eedf;
+  --color-gold-200: #e8dcb9;
+  --color-gold-300: #d6be8a;
+  --color-gold-400: #c19e5d;
+  --color-gold-500: #aa7f38;
+  --color-gold-600: #8f6428;
+  --color-gold-700: #714a1e;
+  --color-gold-800: #553416;
+  --color-gold-900: #3c210e;
+  --color-gold-950: #251105;
+}
+
+body {
+  background-color: #0c0f12;
+  color: #f1f5f9;
+  font-family: var(--font-sans);
+}
+
+/* Custom scrollbars for executive interface */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #11151c;
+}
+::-webkit-scrollbar-thumb {
+  background: #232a35;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #aa7f38;
+}
+
